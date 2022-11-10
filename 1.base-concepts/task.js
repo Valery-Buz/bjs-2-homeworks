@@ -11,17 +11,15 @@ function solveEquation(a, b, c) {
   } else if (d == 0) {
     let z = -b / (2 * a);
     arr.push(z);
-  } else {
-    arr = [];
-  }
+  } 
     
   return arr;
 }
 
-//function calculateTotalMortgage(percent, contribution, amount, date) {
-  //let totalAmount;
+// function calculateTotalMortgage(percent, contribution, amount, date) {
+  // let totalAmount;
 
   // код для задачи №2 писать здесь
 
-  //return totalAmount;
-//}
+  // return totalAmount;
+// } 
